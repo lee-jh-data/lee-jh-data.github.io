@@ -9,12 +9,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="John Appleseed" />
+<meta name="author" content="Jangho Lee" />
 
 
 <title>contact.knit</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -33,8 +33,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -182,8 +182,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -191,16 +191,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -249,7 +242,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">John Appleseed</a>
+      <a class="navbar-brand" href="index.html">Jangho Lee</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -266,17 +259,8 @@ $(document).ready(function () {
     <li>
       <a href="stat1.html">Predicting House Prices in Iowa</a>
     </li>
-  </ul>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    DB/SQL
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="dbsql1.html">Movie Explorer</a>
+      <a href="stat2.html">Predicting Airbnb Prices in NYC</a>
     </li>
   </ul>
 </li>
@@ -301,26 +285,14 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="http://github.com/">
+  <a href="https://lee-jh-data.github.io/">
     <span class="fab fa-github"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://www.linkedin.com/">
+  <a href="https://www.linkedin.com/in/jangholee/">
     <span class="fab fa-linkedin-in"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://scholar.google.com/">
-    <span class="ai ai-google-scholar ai-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://www.researchgate.net/">
-    <span class="ai ai-researchgate ai-lg"></span>
      
   </a>
 </li>
@@ -340,21 +312,21 @@ $(document).ready(function () {
 <p><link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/></p>
 <p><br><br><br><br><br><br></p>
-<div id="john-appleseed" class="section level4">
-<h4><strong>John Appleseed</strong></h4>
-<div id="m.s.-candidate-in-data-science-abc-university"
-class="section level5">
-<h5>M.S. Candidate in Data Science | ABC University
-<img src="images/college_logo.png" style="width:35%;" align="right"></h5>
-<p>📍 Seoul <br> 📱 (123) 456 - 7890 <br> ✉️ <a
-href="mailto:jappleseed@abc.edu">jappleseed@abc.edu</a> <br></p>
+<div id="jangho-lee" class="section level4">
+<h4><strong>Jangho Lee</strong></h4>
+<div id="digital-marketer-madup" class="section level5">
+<h5>Digital Marketer | Madup
+<img src="images/company_logo.jpg" style="width:20%;" align="right"></h5>
+<p>📍 Seoul Korea <br> 📱 (+82) 10- 5448 - 2548 <br> ✉️ <a
+href="mailto:lee.jangho.data@gmail.com">lee.jangho.data@gmail.com</a>
+<br></p>
 </div>
 </div>
 
 
 <br><br>
 <footer>
-  <p class="copyright text-muted" align="center">Copyright &copy; 2022 John Appleseed</p>
+  <p class="copyright text-muted" align="center">Copyright &copy; 2023 Jangho Lee</p>
 </footer>
 
 

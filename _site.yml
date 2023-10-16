@@ -13,10 +13,12 @@ navbar:
       menu: 
       - text: "Predicting House Prices in Iowa"
         href: stat1.html
-    - text: "DB/SQL"
-      menu: 
-      - text: "Movie Explorer"
-        href: dbsql1.html
+      - text: "Predicting Airbnb Prices in NYC"
+        href: stat2.html
+    #- text: "DB/SQL"
+    #  menu: 
+    #  - text: "Movie Explorer"
+    #    href: dbsql1.html
     - text: "Visualization"
       menu: 
       - text: "Squid Game Elimination Analysis"
@@ -27,13 +29,13 @@ navbar:
     #- icon: ai-cv ai-lg
     #  href: files/sample_resume.pdf
     - icon: fab fa-github
-      href: http://github.com/
+      href: https://lee-jh-data.github.io/
     - icon: fab fa-linkedin-in
-      href: https://www.linkedin.com/
-    - icon: ai-google-scholar ai-lg
-      href: https://scholar.google.com/
-    - icon: ai-researchgate ai-lg
-      href: https://www.researchgate.net/
+      href: https://www.linkedin.com/in/jangholee/
+    #- icon: ai-google-scholar ai-lg
+    #  href: https://scholar.google.com/
+    #- icon: ai-researchgate ai-lg
+    #  href: https://www.researchgate.net/
 output:
   html_document:
     theme: cosmo
