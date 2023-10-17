@@ -9,25 +9,37 @@ output: html_document
 <br>
 
 <p align="center">
-<img src="images/profile_pic.jpg" style="width:50%; border:0.5px solid; margin-right: 20px" align="center">
+<img src="images/person.jpg" style="width:50%; border:0.5px solid; margin-right: 20px" align="center">
 </p>
 <br>
 
 <br><br><br>
 👋 Hello! I am Jangho Lee and currently live in Seoul, Korea.
+
 <br>
+
 🎓 Preparing for the M.S. in business analytics program in the United States. Previously, finished my International Trade at Inha University.
+
 <br>
+
 👩‍💻 2 years with experience in analyzing advertising data from platforms such as Facebook, Google, and TikTok and applying insights to actionable strategies for digital marketing.
 ▪ Programming: R, Python
 ▪ Data visualization: Tableau, Google Data Studio
 ▪ Business and Web/App Analytics: Excel, PowerPoint, Appsflyer, Airbridge and Google Analytics
 ▪ Version control: Git
+
 <br>
+
 🔥 My goal is to work in a consumer goods company as a data-driven marketer. Additionally, I aspire to work as a data PM in companies with their own advertising platforms, such as Meta, Google, and TikTok
+
 <br>
+
 💻 In the near future, I envision myself growing into a proficient data-driven marketer, and in the long run, as a data-driven PM leading transformative data strategies. My mission is to enable companies with great products to promote them more efficiently and cost-effectively, connecting people to these products to derive benefits from them.
+
 <br>
+
 🎹 In my free time, I jog in Seoul's city center, a vital stress-reliever. 
+
 <br>
+
 For more details, please feel free to reach out via lee-jh-data.github.io
