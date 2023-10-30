@@ -36,4 +36,4 @@ output: html_document
 🎹 In my free time, I jog in Seoul's city center, a vital stress-reliever. 
 <br>
 
-For more details, please feel free to reach out via lee-jh-data.github.io
+For more details, please feel free to reach out via [lee.jangho.data@gmail.com](mailto:lee.jangho.data@gmail.com).
