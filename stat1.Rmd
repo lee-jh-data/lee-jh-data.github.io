@@ -14,15 +14,13 @@ output:
 
 <br><br><br>
 
-## **Predicting House Prices in Iowa**
+## **Predicting Customer Lifetime Value**
 
 ![](https://img.shields.io/badge/Using-Python-blue)
+![](https://img.shields.io/badge/-LinearRegression-orange)
 ![](https://img.shields.io/badge/-LASSO-red)
-![](https://img.shields.io/badge/-XGBoost-success)
 
 <br>
-
-🚨**THIS IS A FICTIONAL PROJECT MEANT AS AN EXAMPLE FOR THE STEPBYSTAT COMMUNITY.**
 
 <br><br><br>
 
@@ -41,7 +39,7 @@ output:
 <br><br>
 
 ### 2. Goal
-To predict the final price of each home using 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
+To predict the customer lifetime value using insurance data
 
 <br>
 
@@ -55,7 +53,7 @@ To predict the final price of each home using 79 explanatory variables describin
 
 ### 4. Code
 
-Please click [HERE](https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report) for the analysis report and code.
+Please click [HERE](https://nbviewer.org/github/lee-jh-data/lee-jh-data.github.io/blob/main/files/lifetimevalue_02.ipynb) for the analysis report and code.
 
 <br>
 
