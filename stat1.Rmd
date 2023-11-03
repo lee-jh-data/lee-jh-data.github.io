@@ -17,8 +17,10 @@ output:
 ## **Predicting Customer Lifetime Value**
 
 ![](https://img.shields.io/badge/Using-Python-blue)
-![](https://img.shields.io/badge/-LinearRegression-orange)
-![](https://img.shields.io/badge/-LASSO-red)
+![](https://img.shields.io/badge/-LinearRegression-red)
+![](https://img.shields.io/badge/-LogTransformedLinearRegression-orange)
+![](https://img.shields.io/badge/-RandomForest-green)
+![](https://img.shields.io/badge/-LASSO-yellow)
 
 <br>
 
@@ -27,10 +29,10 @@ output:
 ### 1. Figure
 
 <p align="center">
-<img src="images/predict_houseprice.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/Stat01_image.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
 </p>
 <p align="center">
-[Fig. LASSO regression features by importance]
+[Fig. Graph comparing key metrics by model]
 </p>
 
 
@@ -39,15 +41,16 @@ output:
 <br><br>
 
 ### 2. Goal
-To predict the customer lifetime value using insurance data
+The goal of the analysis was to evaluate and compare the performance of various predictive models in estimating "Customer Lifetime Value" from customer insurance data, using metrics like MSE, RMSE, and MAE. Through visualizations, the analysis aimed to identify the most effective model based on these metrics.
 
 <br>
 
 ### 3. Methodology & Summary
 
-  + LASSO regressions showed the best performance with a cross validation RMSE-score of 0.1121. Although there is a lot of multicollinearity among the variables, LASSO regression include feature selection; it does not select a substantial number of the available variables in its model, as it is supposed to do.
-  + The XGBoost model also performs very well with a cross validation RMSE of 0.1162.
-  + As those two algorithms are very different, averaging predictions is likely to improve the predictions. As the Lasso cross validated RMSE is better than XGBoost's CV score, I decided to weight the Lasso results double.
+  + I will predict the customer lifetime value using four models: Linear Regression, Log-transformed Linear Regression, Random Forest, and LASSO.
+  + The Random Forest model outperforms the others with the highest $R^2$ value of 0.707 and the lowest MAE of 1467.39. In contrast, the Log-transformed Linear Regression has the lowest $R^2$ value of 0.0907, while LASSO reports the highest MAE of 4025.79.  
+  + The Linear Regression, Log-transformed Linear Regression, and LASSO models have comparable performance, with the Log-transformed Linear Regression having a slightly better MAE but worse MSE than the standard Linear Regression.
+  + In conclusion the Random Forest model has the highest $R^2$ value, the lowest MAE, and the lowest MSE, making it the best performing model among the four based on these metrics.
 
 <br>
 
