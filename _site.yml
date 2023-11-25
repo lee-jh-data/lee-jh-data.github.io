@@ -13,8 +13,8 @@ navbar:
       menu: 
       - text: "Predicting Customer Lifetime Value"
         href: stat1.html
-      #- text: "Predicting Airbnb Prices in NYC"
-      #  href: stat2.html
+      - text: "Clustering - Customer Segmentation"
+        href: stat2.html
     #- text: "DB/SQL"
     #  menu: 
     #  - text: "Movie Explorer"

@@ -14,25 +14,23 @@ output:
 
 <br><br><br>
 
-## **Predicting House Prices in NYC**
+## **Clustering - Customer Segmentation**
 
 ![](https://img.shields.io/badge/Using-Python-blue)
-![](https://img.shields.io/badge/-LASSO-red)
-![](https://img.shields.io/badge/-XGBoost-success)
+![](https://img.shields.io/badge/-KMeans-red)
 
 <br>
-
-🚨**THIS IS A FICTIONAL PROJECT MEANT AS AN EXAMPLE FOR THE STEPBYSTAT COMMUNITY.**
 
 <br><br><br>
 
 ### 1. Figure
 
 <p align="center">
-<img src="images/predict_houseprice.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/Stat02_image1.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/Stat02_image2.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
 </p>
 <p align="center">
-[Fig. LASSO regression features by importance]
+[Fig. Customer segmentation based on income and spending pattern]
 </p>
 
 
@@ -41,21 +39,26 @@ output:
 <br><br>
 
 ### 2. Goal
-To predict the final price of each home using 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
+The purpose of the analysis is to segment mall customers into distinct groups based on their annual income and spending behaviors, enabling the development of targeted marketing strategies and personalized customer engagement. This segmentation helps in understanding diverse customer profiles and optimizing marketing efforts for better customer relationship management.
 
 <br>
 
-### 3. Methodology & Summary
+### 3. Methodology
 
-  + LASSO regressions showed the best performance with a cross validation RMSE-score of 0.1121. Although there is a lot of multicollinearity among the variables, LASSO regression include feature selection; it does not select a substantial number of the available variables in its model, as it is supposed to do.
-  + The XGBoost model also performs very well with a cross validation RMSE of 0.1162.
-  + As those two algorithms are very different, averaging predictions is likely to improve the predictions. As the Lasso cross validated RMSE is better than XGBoost's CV score, I decided to weight the Lasso results double.
+  + The analysis began with importing relevant libraries and the mall customer dataset, followed by encoding the categorical 'Gender' variable into numerical format.
+  + The K-Means algorithm was applied to the standardized dataset to segment customers into clusters, with the optimal number of clusters determined using the elbow method.
+  
+<br>
+
+### 4. Summary
+  + The analysis successfully segmented the mall customers into five distinct groups, revealing varied patterns in income and spending. 
+  + The most valuable segment is Cluster 2, comprising affluent customers with high spending, making them ideal targets for luxury and high-value products. Conversely, Cluster 3 is the least valuable segment, as these customers have low income and spending, indicating limited purchasing power and cautious spending behavior.
 
 <br>
 
-### 4. Code
+### 5. Code
 
-Please click [HERE](https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report) for the analysis report and code.
+Please click [HERE](https://nbviewer.org/github/lee-jh-data/lee-jh-data.github.io/blob/main/files/Customer_Segmentation.ipynb) for the analysis report and code.
 
 <br>
 

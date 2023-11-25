@@ -337,6 +337,9 @@ div.tocify {
     <li>
       <a href="stat1.html">Predicting Customer Lifetime Value</a>
     </li>
+    <li>
+      <a href="stat2.html">Clustering - Customer Segmentation</a>
+    </li>
   </ul>
 </li>
 <li class="dropdown">
@@ -387,54 +390,63 @@ div.tocify {
 <p><link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/></p>
 <p><br><br><br></p>
-<div id="predicting-house-prices-in-nyc" class="section level2">
-<h2><strong>Predicting House Prices in NYC</strong></h2>
+<div id="clustering---customer-segmentation" class="section level2">
+<h2><strong>Clustering - Customer Segmentation</strong></h2>
 <p><img src="https://img.shields.io/badge/Using-Python-blue" /> <img
-src="https://img.shields.io/badge/-LASSO-red" /> <img
-src="https://img.shields.io/badge/-XGBoost-success" /></p>
+src="https://img.shields.io/badge/-KMeans-red" /></p>
 <p><br></p>
-<p>🚨<strong>THIS IS A FICTIONAL PROJECT MEANT AS AN EXAMPLE FOR THE
-STEPBYSTAT COMMUNITY.</strong></p>
 <p><br><br><br></p>
 <div id="figure" class="section level3">
 <h3>1. Figure</h3>
 <p align="center">
-<img src="images/predict_houseprice.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/Stat02_image1.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/Stat02_image2.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
 </p>
 <p align="center">
-[Fig. LASSO regression features by importance]
+[Fig. Customer segmentation based on income and spending pattern]
 </p>
 <p><br></p>
 <p><br><br></p>
 </div>
 <div id="goal" class="section level3">
 <h3>2. Goal</h3>
-<p>To predict the final price of each home using 79 explanatory
-variables describing (almost) every aspect of residential homes in Ames,
-Iowa.</p>
+<p>The purpose of the analysis is to segment mall customers into
+distinct groups based on their annual income and spending behaviors,
+enabling the development of targeted marketing strategies and
+personalized customer engagement. This segmentation helps in
+understanding diverse customer profiles and optimizing marketing efforts
+for better customer relationship management.</p>
 <p><br></p>
 </div>
-<div id="methodology-summary" class="section level3">
-<h3>3. Methodology &amp; Summary</h3>
+<div id="methodology" class="section level3">
+<h3>3. Methodology</h3>
 <ul>
-<li>LASSO regressions showed the best performance with a cross
-validation RMSE-score of 0.1121. Although there is a lot of
-multicollinearity among the variables, LASSO regression include feature
-selection; it does not select a substantial number of the available
-variables in its model, as it is supposed to do.</li>
-<li>The XGBoost model also performs very well with a cross validation
-RMSE of 0.1162.</li>
-<li>As those two algorithms are very different, averaging predictions is
-likely to improve the predictions. As the Lasso cross validated RMSE is
-better than XGBoost’s CV score, I decided to weight the Lasso results
-double.</li>
+<li>The analysis began with importing relevant libraries and the mall
+customer dataset, followed by encoding the categorical ‘Gender’ variable
+into numerical format.</li>
+<li>The K-Means algorithm was applied to the standardized dataset to
+segment customers into clusters, with the optimal number of clusters
+determined using the elbow method.</li>
+</ul>
+<p><br></p>
+</div>
+<div id="summary" class="section level3">
+<h3>4. Summary</h3>
+<ul>
+<li>The analysis successfully segmented the mall customers into five
+distinct groups, revealing varied patterns in income and spending.</li>
+<li>The most valuable segment is Cluster 2, comprising affluent
+customers with high spending, making them ideal targets for luxury and
+high-value products. Conversely, Cluster 3 is the least valuable
+segment, as these customers have low income and spending, indicating
+limited purchasing power and cautious spending behavior.</li>
 </ul>
 <p><br></p>
 </div>
 <div id="code" class="section level3">
-<h3>4. Code</h3>
+<h3>5. Code</h3>
 <p>Please click <a
-href="https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report">HERE</a>
+href="https://nbviewer.org/github/lee-jh-data/lee-jh-data.github.io/blob/main/files/Customer_Segmentation.ipynb">HERE</a>
 for the analysis report and code.</p>
 <p><br></p>
 </div>
