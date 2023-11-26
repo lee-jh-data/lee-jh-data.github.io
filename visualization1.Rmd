@@ -14,20 +14,24 @@ output:
 
 <br><br><br>
 
-## **Squid Game Elimination Analysis**
+## **E-commerce App In-App Activity Data Dashboard**
 
 ![](https://img.shields.io/badge/Using-Tableau%20Software-red)
+![](https://img.shields.io/badge/-Python-green)
+![](https://img.shields.io/badge/-MetaAPI-blue)
+![](https://img.shields.io/badge/-GoogleAPI-orange)
 
 <br>
-
-🚨**THIS IS A FICTIONAL PROJECT MEANT AS AN EXAMPLE FOR THE STEPBYSTAT COMMUNITY.**
 
 <br><br><br>
 
 ### 1. Screenshot of Dashboard
 
 <p align="center">
-<img src="images/squid_game.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/Tableau_Madup01.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/Tableau_Madup02.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/Tableau_Madup03.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/Tableau_Madup04.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
 </p>
 <p align="center">
 </p>
@@ -36,16 +40,14 @@ output:
 
 ### 2. Summary
 
-+ Squid Game is a South Korean survival drama television series streaming on Netflix.
-+ The series runs a contest where 456 players, and all of them are in debt, thereby playing multiple different types of children's games.
-+ The players soon realize that being eliminated means death, and prize money accrued as more and more people die.
-+ Game 1 an extremely lethl version of Red Light, Green Light, where anyone caught moving is shot dead on the spot. It generated the most casualites, 255 people, as `elimination=death` rule was not informed to the players beforehand.
++ The dashboard has been developed for an e-commerce client to track advertising data and in-app activities (app installation, adding to cart, purchases) in real-time.
++ The dashboard is comprised of four main sections: Overview, Summary, Report, and Creative.
++ The Overview section is designed to monitor Key Performance Indicators (KPIs) collected from all advertising channels in real-time. It allows for an at-a-glance comparison of KPI trends, as well as advertising expenditure and performance across various media.
++ The Summary section is created to summarize and review key metrics from all media on a time-based scale.
++ The Report section is developed for a more detailed examination of performance, enabling the review of key metrics on a daily, weekly, and by-week basis.
++ The Creative section is designed to analyze the performance of each advertising creative. Integrated with each advertising platform’s API, it allows users to click on an ad name within the dashboard and view the ad image directly.
 
 <br><br><br>
-
-### 3. Tableau Public
-
-For more insights, please check my Tableau Public by clicking [HERE](https://public.tableau.com/app/profile/davidhoskins/viz/SquidGameWARNINGMAJORSPOILERS/SquidGame).
 
 
 

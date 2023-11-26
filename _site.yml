@@ -21,8 +21,10 @@ navbar:
     #    href: dbsql1.html
     - text: "Visualization"
       menu: 
-      - text: "Squid Game Elimination Analysis"
+      - text: "E-commerce App In-App Activity Data Dashboard"
         href: visualization1.html
+      - text: "Squid Game Elimination Analysis"
+        href: visualization2.html  
   right:
     - icon: fas fa-envelope
       href: contact.html
