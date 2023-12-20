@@ -56,7 +56,7 @@ The goal of the analysis was to evaluate and compare the performance of various 
 
 ### 4. Code
 
-Please click [HERE](https://nbviewer.org/github/lee-jh-data/lee-jh-data.github.io/blob/main/files/lifetimevalue_02.ipynb) for the analysis report and code.
+Please click [HERE](https://gist.github.com/lee-jh-data/8de21e79513e7973b8737f5aa23be721) for the analysis report and code.
 
 <br>
 
