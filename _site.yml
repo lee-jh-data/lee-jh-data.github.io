@@ -11,12 +11,12 @@ navbar:
     #  href: tutorials.html
     - text: "Stat/ML"
       menu: 
-      - text: "Predicting Customer Lifetime Value"
-        href: stat1.html
+      #- text: "Predicting Customer Lifetime Value"
+      #  href: stat1.html
       - text: "Clustering - Customer Segmentation"
         href: stat2.html
-      - text: "Predicting Used Car Price"
-        href: stat3.html
+      #- text: "Predicting Used Car Price"
+      #  href: stat3.html
     #- text: "DB/SQL"
     #  menu: 
     #  - text: "Movie Explorer"
