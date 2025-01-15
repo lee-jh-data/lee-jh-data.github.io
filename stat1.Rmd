@@ -1,5 +1,5 @@
 ---
-pagetitle: "Stat12"
+pagetitle: "Stat1"
 output:
   html_document:
     toc: true
